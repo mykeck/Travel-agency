@@ -3,6 +3,9 @@ header{
     text-align: center;
     
 }
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 .container{background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
@@ -41,3 +44,10 @@ a:hover{
 }
 footer ul{
     text-align: center;
+}
+#home{
+        border: 2px solid red;
+        padding: 4px;
+        margin: 10px;
+        background-color: yellow;
+}
