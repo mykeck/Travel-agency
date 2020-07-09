@@ -1,0 +1,43 @@
+header{
+    color: #f7325e ;
+    text-align: center;
+    
+}
+.container{background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+#home{
+    text-align: center;
+}
+#destination {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tropical {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-around;
+}
+footer ul{
+    text-align: center;
